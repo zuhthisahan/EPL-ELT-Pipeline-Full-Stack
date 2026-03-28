@@ -1,0 +1,88 @@
+{
+    "player_name": "Max Dowman",
+    "player_url": "https://understat.com/player/13872",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Arsenal",
+            "Apps": "3",
+            "Min": "35",
+            "G": "1",
+            "A": "0",
+            "Sh90": "12.86",
+            "KP90": "5.14",
+            "xG": "0.54",
+            "xA": "0.05",
+            "xG90": "1.40",
+            "xA90": "0.12"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "3",
+            "Min": "35",
+            "G": "1",
+            "A": "0",
+            "Sh90": "12.86",
+            "KP90": "5.14",
+            "xG": "0.54",
+            "xA": "0.05",
+            "xG90": "1.40",
+            "xA90": "0.12"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-03-14",
+            "Home": "Arsenal",
+            "Score": "2-0",
+            "Away": "Everton",
+            "Pos": "Sub",
+            "Min": "11",
+            "Sh": "2",
+            "G": "1",
+            "KP": "2",
+            "A": "0",
+            "xG": "0.39",
+            "xA": "0.05"
+        },
+        {
+            "№": "2",
+            "Date": "2025-08-31",
+            "Home": "Liverpool",
+            "Score": "1-0",
+            "Away": "Arsenal",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.06",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2025-08-23",
+            "Home": "Arsenal",
+            "Score": "5-0",
+            "Away": "Leeds",
+            "Pos": "Sub",
+            "Min": "23",
+            "Sh": "2",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.09",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

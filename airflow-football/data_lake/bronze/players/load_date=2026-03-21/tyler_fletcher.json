@@ -1,0 +1,27 @@
+{
+    "player_name": "Tyler Fletcher",
+    "player_url": "https://understat.com/player/14272",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-02-07",
+            "Home": "Manchester United",
+            "Score": "2-0",
+            "Away": "Tottenham",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

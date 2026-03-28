@@ -1,0 +1,42 @@
+{
+    "player_name": "Zach Abbott",
+    "player_url": "https://understat.com/player/13306",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-02-06",
+            "Home": "Leeds",
+            "Score": "3-1",
+            "Away": "Nottingham Forest",
+            "Pos": "DR",
+            "Min": "77",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-12-06",
+            "Home": "Everton",
+            "Score": "3-0",
+            "Away": "Nottingham Forest",
+            "Pos": "Sub",
+            "Min": "40",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

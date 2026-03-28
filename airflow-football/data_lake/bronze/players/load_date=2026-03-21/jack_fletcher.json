@@ -1,0 +1,88 @@
+{
+    "player_name": "Jack Fletcher",
+    "player_url": "https://understat.com/player/13150",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Manchester United",
+            "Apps": "3",
+            "Min": "97",
+            "G": "0",
+            "A": "0",
+            "Sh90": "0.93",
+            "KP90": "1.86",
+            "xG": "0.04",
+            "xA": "0.11",
+            "xG90": "0.03",
+            "xA90": "0.11"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "3",
+            "Min": "97",
+            "G": "0",
+            "A": "0",
+            "Sh90": "0.93",
+            "KP90": "1.86",
+            "xG": "0.04",
+            "xA": "0.11",
+            "xG90": "0.03",
+            "xA90": "0.11"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2025-12-30",
+            "Home": "Manchester United",
+            "Score": "1-1",
+            "Away": "Wolverhampton Wanderers",
+            "Pos": "Sub",
+            "Min": "43",
+            "Sh": "1",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "0.04",
+            "xA": "0.07"
+        },
+        {
+            "№": "2",
+            "Date": "2025-12-26",
+            "Home": "Manchester United",
+            "Score": "1-0",
+            "Away": "Newcastle United",
+            "Pos": "Sub",
+            "Min": "41",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.04"
+        },
+        {
+            "№": "3",
+            "Date": "2025-12-21",
+            "Home": "Aston Villa",
+            "Score": "2-1",
+            "Away": "Manchester United",
+            "Pos": "Sub",
+            "Min": "13",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

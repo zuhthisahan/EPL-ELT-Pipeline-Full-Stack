@@ -1,0 +1,103 @@
+{
+    "player_name": "Souza",
+    "player_url": "https://understat.com/player/14410",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Tottenham",
+            "Apps": "4",
+            "Min": "136",
+            "G": "0",
+            "A": "0",
+            "Sh90": "0.66",
+            "KP90": "1.99",
+            "xG": "0.01",
+            "xA": "0.20",
+            "xG90": "0.01",
+            "xA90": "0.13"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "4",
+            "Min": "136",
+            "G": "0",
+            "A": "0",
+            "Sh90": "0.66",
+            "KP90": "1.99",
+            "xG": "0.01",
+            "xA": "0.20",
+            "xG90": "0.01",
+            "xA90": "0.13"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-03-15",
+            "Home": "Liverpool",
+            "Score": "1-1",
+            "Away": "Tottenham",
+            "Pos": "MR",
+            "Min": "58",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.01",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2026-03-05",
+            "Home": "Tottenham",
+            "Score": "1-3",
+            "Away": "Crystal Palace",
+            "Pos": "DML",
+            "Min": "42",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.06"
+        },
+        {
+            "№": "3",
+            "Date": "2026-03-01",
+            "Home": "Fulham",
+            "Score": "2-1",
+            "Away": "Tottenham",
+            "Pos": "Sub",
+            "Min": "6",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.11"
+        },
+        {
+            "№": "4",
+            "Date": "2026-02-07",
+            "Home": "Manchester United",
+            "Score": "2-0",
+            "Away": "Tottenham",
+            "Pos": "Sub",
+            "Min": "30",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.03"
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

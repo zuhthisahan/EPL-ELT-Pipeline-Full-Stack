@@ -1,0 +1,42 @@
+[2026-03-26T21:13:29.083+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:13:29.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/football_master_dag.py for tasks to queue
+[2026-03-26T21:13:29.091+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:13:29.090+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:13:29.152+0000] {processor.py:840} INFO - DAG(s) 'football_medallion_pipeline' retrieved from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:13:29.937+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:13:29.937+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-26T21:13:29.996+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:13:29.995+0000] {dag.py:3954} INFO - Setting next_dagrun for football_medallion_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-26T21:13:32.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/football_master_dag.py took 3.407 seconds
+[2026-03-26T21:14:17.049+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:14:17.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/football_master_dag.py for tasks to queue
+[2026-03-26T21:14:17.056+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:14:17.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:14:17.109+0000] {processor.py:840} INFO - DAG(s) 'football_medallion_pipeline' retrieved from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:14:17.226+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:14:17.225+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-26T21:14:17.276+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:14:17.275+0000] {dag.py:3954} INFO - Setting next_dagrun for football_medallion_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-26T21:14:17.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/football_master_dag.py took 0.303 seconds
+[2026-03-26T21:14:47.525+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:14:47.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/football_master_dag.py for tasks to queue
+[2026-03-26T21:14:47.531+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:14:47.530+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:14:47.557+0000] {processor.py:840} INFO - DAG(s) 'football_medallion_pipeline' retrieved from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:14:47.579+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:14:47.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-26T21:14:47.604+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:14:47.604+0000] {dag.py:3954} INFO - Setting next_dagrun for football_medallion_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-26T21:14:48.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/football_master_dag.py took 0.819 seconds
+[2026-03-26T21:15:18.449+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:15:18.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/football_master_dag.py for tasks to queue
+[2026-03-26T21:15:18.453+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:15:18.452+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:15:18.477+0000] {processor.py:840} INFO - DAG(s) 'football_medallion_pipeline' retrieved from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:15:18.645+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:15:18.645+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-26T21:15:18.668+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:15:18.667+0000] {dag.py:3954} INFO - Setting next_dagrun for football_medallion_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-26T21:15:18.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/football_master_dag.py took 0.284 seconds
+[2026-03-26T21:15:48.994+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:15:48.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/football_master_dag.py for tasks to queue
+[2026-03-26T21:15:48.998+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:15:48.998+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:15:49.024+0000] {processor.py:840} INFO - DAG(s) 'football_medallion_pipeline' retrieved from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:15:49.047+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:15:49.047+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-26T21:15:49.074+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:15:49.073+0000] {dag.py:3954} INFO - Setting next_dagrun for football_medallion_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-26T21:15:49.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/football_master_dag.py took 0.138 seconds
+[2026-03-26T21:16:19.469+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:16:19.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/football_master_dag.py for tasks to queue
+[2026-03-26T21:16:19.473+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:16:19.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:16:19.494+0000] {processor.py:840} INFO - DAG(s) 'football_medallion_pipeline' retrieved from /opt/airflow/dags/football_master_dag.py
+[2026-03-26T21:16:19.516+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:16:19.516+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-26T21:16:19.541+0000] {logging_mixin.py:188} INFO - [2026-03-26T21:16:19.541+0000] {dag.py:3954} INFO - Setting next_dagrun for football_medallion_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-26T21:16:19.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/football_master_dag.py took 0.136 seconds

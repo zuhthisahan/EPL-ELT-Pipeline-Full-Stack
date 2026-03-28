@@ -1,0 +1,39 @@
+[2026-03-23T06:49:02.527+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T06:49:02.559+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T06:43:52.932952+00:00 [queued]>
+[2026-03-23T06:49:02.571+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T06:43:52.932952+00:00 [queued]>
+[2026-03-23T06:49:02.572+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 2
+[2026-03-23T06:49:02.644+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): run_bronze_scraper> on 2026-03-23 06:43:52.932952+00:00
+[2026-03-23T06:49:02.650+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=403) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-03-23T06:49:02.651+0000] {standard_task_runner.py:63} INFO - Started process 405 to run task
+[2026-03-23T06:49:02.651+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'football_medallion_pipeline', 'run_bronze_scraper', 'manual__2026-03-23T06:43:52.932952+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/football_master_dag.py', '--cfg-path', '/tmp/tmp41pra88_']
+[2026-03-23T06:49:02.654+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask run_bronze_scraper
+[2026-03-23T06:49:02.794+0000] {task_command.py:426} INFO - Running <TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T06:43:52.932952+00:00 [running]> on host b0f630b37528
+[2026-03-23T06:49:02.885+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='football_medallion_pipeline' AIRFLOW_CTX_TASK_ID='run_bronze_scraper' AIRFLOW_CTX_EXECUTION_DATE='2026-03-23T06:43:52.932952+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-23T06:43:52.932952+00:00'
+[2026-03-23T06:49:02.887+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-23T06:49:02.888+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-23T06:49:02.889+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/1_bronze_scraper.py ']
+[2026-03-23T06:49:02.898+0000] {subprocess.py:86} INFO - Output:
+[2026-03-23T06:49:02.919+0000] {subprocess.py:93} INFO - python: can't open file '/opt/***/dags/1_bronze_scraper.py': [Errno 2] No such file or directory
+[2026-03-23T06:49:02.921+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2026-03-23T06:49:02.922+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-23T06:49:02.931+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2026-03-23T06:49:02.935+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=football_medallion_pipeline, task_id=run_bronze_scraper, execution_date=20260323T064352, start_date=20260323T064902, end_date=20260323T064902
+[2026-03-23T06:49:02.969+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 4 for task run_bronze_scraper (Bash command failed. The command returned a non-zero exit code 2.; 405)
+[2026-03-23T06:49:02.987+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-23T06:49:03.007+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T06:49:03.034+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

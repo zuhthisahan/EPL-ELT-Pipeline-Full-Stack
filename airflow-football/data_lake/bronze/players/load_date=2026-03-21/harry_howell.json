@@ -1,0 +1,72 @@
+{
+    "player_name": "Harry Howell",
+    "player_url": "https://understat.com/player/13584",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-03-04",
+            "Home": "Brighton",
+            "Score": "0-1",
+            "Away": "Arsenal",
+            "Pos": "Sub",
+            "Min": "10",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2026-02-11",
+            "Home": "Aston Villa",
+            "Score": "1-0",
+            "Away": "Brighton",
+            "Pos": "Sub",
+            "Min": "6",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2026-02-08",
+            "Home": "Brighton",
+            "Score": "0-1",
+            "Away": "Crystal Palace",
+            "Pos": "AMR",
+            "Min": "75",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "4",
+            "Date": "2025-05-19",
+            "Home": "Brighton",
+            "Score": "3-2",
+            "Away": "Liverpool",
+            "Pos": "Sub",
+            "Min": "4",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "player_name": "Ben Winterburn",
+    "player_url": "https://understat.com/player/13242",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2025-08-15",
+            "Home": "Liverpool",
+            "Score": "4-2",
+            "Away": "Bournemouth",
+            "Pos": "Sub",
+            "Min": "3",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-05-25",
+            "Home": "Bournemouth",
+            "Score": "2-0",
+            "Away": "Leicester",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2025-04-05",
+            "Home": "West Ham",
+            "Score": "2-2",
+            "Away": "Bournemouth",
+            "Pos": "Sub",
+            "Min": "10",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "4",
+            "Date": "2025-01-18",
+            "Home": "Newcastle United",
+            "Score": "1-4",
+            "Away": "Bournemouth",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "5",
+            "Date": "2024-12-29",
+            "Home": "Fulham",
+            "Score": "2-2",
+            "Away": "Bournemouth",
+            "Pos": "Sub",
+            "Min": "5",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

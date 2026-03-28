@@ -1,0 +1,133 @@
+{
+    "player_name": "Pablo",
+    "player_url": "https://understat.com/player/14290",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "West Ham",
+            "Apps": "6",
+            "Min": "332",
+            "G": "0",
+            "A": "0",
+            "Sh90": "1.08",
+            "KP90": "1.08",
+            "xG": "0.57",
+            "xA": "0.24",
+            "xG90": "0.16",
+            "xA90": "0.06"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "6",
+            "Min": "332",
+            "G": "0",
+            "A": "0",
+            "Sh90": "1.08",
+            "KP90": "1.08",
+            "xG": "0.57",
+            "xA": "0.24",
+            "xG90": "0.16",
+            "xA90": "0.06"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-03-14",
+            "Home": "West Ham",
+            "Score": "1-1",
+            "Away": "Manchester City",
+            "Pos": "AMC",
+            "Min": "66",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2026-02-07",
+            "Home": "Burnley",
+            "Score": "0-2",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "7",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.01"
+        },
+        {
+            "№": "3",
+            "Date": "2026-01-31",
+            "Home": "Chelsea",
+            "Score": "3-2",
+            "Away": "West Ham",
+            "Pos": "AMC",
+            "Min": "72",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.09"
+        },
+        {
+            "№": "4",
+            "Date": "2026-01-24",
+            "Home": "West Ham",
+            "Score": "3-1",
+            "Away": "Sunderland",
+            "Pos": "AMC",
+            "Min": "74",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.30",
+            "xA": ""
+        },
+        {
+            "№": "5",
+            "Date": "2026-01-17",
+            "Home": "Tottenham",
+            "Score": "1-2",
+            "Away": "West Ham",
+            "Pos": "AMC",
+            "Min": "87",
+            "Sh": "2",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "0.21",
+            "xA": "0.07"
+        },
+        {
+            "№": "6",
+            "Date": "2026-01-06",
+            "Home": "West Ham",
+            "Score": "1-2",
+            "Away": "Nottingham Forest",
+            "Pos": "Sub",
+            "Min": "26",
+            "Sh": "1",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "0.06",
+            "xA": "0.06"
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

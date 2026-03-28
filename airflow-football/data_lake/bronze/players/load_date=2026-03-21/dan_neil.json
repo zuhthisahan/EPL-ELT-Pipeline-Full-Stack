@@ -1,0 +1,57 @@
+{
+    "player_name": "Dan Neil",
+    "player_url": "https://understat.com/player/13720",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-01-07",
+            "Home": "Brentford",
+            "Score": "3-0",
+            "Away": "Sunderland",
+            "Pos": "Sub",
+            "Min": "11",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-10-18",
+            "Home": "Sunderland",
+            "Score": "2-0",
+            "Away": "Wolverhampton Wanderers",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2025-09-21",
+            "Home": "Sunderland",
+            "Score": "1-1",
+            "Away": "Aston Villa",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

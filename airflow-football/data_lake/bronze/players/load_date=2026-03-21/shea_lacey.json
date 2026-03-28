@@ -1,0 +1,73 @@
+{
+    "player_name": "Shea Lacey",
+    "player_url": "https://understat.com/player/14198",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Manchester United",
+            "Apps": "2",
+            "Min": "6",
+            "G": "0",
+            "A": "0",
+            "Sh90": "45.00",
+            "KP90": "0.00",
+            "xG": "0.06",
+            "xA": "",
+            "xG90": "0.89",
+            "xA90": "0.00"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "2",
+            "Min": "6",
+            "G": "0",
+            "A": "0",
+            "Sh90": "45.00",
+            "KP90": "0.00",
+            "xG": "0.06",
+            "xA": "",
+            "xG90": "0.89",
+            "xA90": "0.00"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-01-07",
+            "Home": "Burnley",
+            "Score": "2-2",
+            "Away": "Manchester United",
+            "Pos": "Sub",
+            "Min": "4",
+            "Sh": "2",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.04",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-12-21",
+            "Home": "Aston Villa",
+            "Score": "2-1",
+            "Away": "Manchester United",
+            "Pos": "Sub",
+            "Min": "2",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.02",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

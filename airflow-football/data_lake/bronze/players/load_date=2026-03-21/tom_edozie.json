@@ -1,0 +1,58 @@
+{
+    "player_name": "Tom Edozie",
+    "player_url": "https://understat.com/player/13220",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Wolverhampton Wanderers",
+            "Apps": "1",
+            "Min": "1",
+            "G": "1",
+            "A": "0",
+            "Sh90": "90.00",
+            "KP90": "0.00",
+            "xG": "0.08",
+            "xA": "",
+            "xG90": "7.45",
+            "xA90": "0.00"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "1",
+            "Min": "1",
+            "G": "1",
+            "A": "0",
+            "Sh90": "90.00",
+            "KP90": "0.00",
+            "xG": "0.08",
+            "xA": "",
+            "xG90": "7.45",
+            "xA90": "0.00"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-02-18",
+            "Home": "Wolverhampton Wanderers",
+            "Score": "2-2",
+            "Away": "Arsenal",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "1",
+            "G": "1",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.08",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

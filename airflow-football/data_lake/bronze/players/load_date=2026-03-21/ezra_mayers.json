@@ -1,0 +1,133 @@
+{
+    "player_name": "Ezra Mayers",
+    "player_url": "https://understat.com/player/13247",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "West Ham",
+            "Apps": "6",
+            "Min": "96",
+            "G": "0",
+            "A": "0",
+            "Sh90": "0.94",
+            "KP90": "1.88",
+            "xG": "0.11",
+            "xA": "0.12",
+            "xG90": "0.10",
+            "xA90": "0.11"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "6",
+            "Min": "96",
+            "G": "0",
+            "A": "0",
+            "Sh90": "0.94",
+            "KP90": "1.88",
+            "xG": "0.11",
+            "xA": "0.12",
+            "xG90": "0.10",
+            "xA90": "0.11"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-02-28",
+            "Home": "Liverpool",
+            "Score": "5-2",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2026-01-06",
+            "Home": "West Ham",
+            "Score": "1-2",
+            "Away": "Nottingham Forest",
+            "Pos": "Sub",
+            "Min": "26",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.06"
+        },
+        {
+            "№": "3",
+            "Date": "2026-01-03",
+            "Home": "Wolverhampton Wanderers",
+            "Score": "3-0",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "38",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "4",
+            "Date": "2025-12-30",
+            "Home": "West Ham",
+            "Score": "2-2",
+            "Away": "Brighton",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.11",
+            "xA": ""
+        },
+        {
+            "№": "5",
+            "Date": "2025-12-20",
+            "Home": "Manchester City",
+            "Score": "3-0",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "24",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.06"
+        },
+        {
+            "№": "6",
+            "Date": "2025-12-07",
+            "Home": "Brighton",
+            "Score": "1-1",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "6",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

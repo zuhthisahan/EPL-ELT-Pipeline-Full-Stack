@@ -1,0 +1,42 @@
+{
+    "player_name": "Divine Mukasa",
+    "player_url": "https://understat.com/player/14055",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-01-17",
+            "Home": "Manchester United",
+            "Score": "2-0",
+            "Away": "Manchester City",
+            "Pos": "Sub",
+            "Min": "8",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.06"
+        },
+        {
+            "№": "2",
+            "Date": "2025-12-20",
+            "Home": "Manchester City",
+            "Score": "3-0",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "13",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.16"
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

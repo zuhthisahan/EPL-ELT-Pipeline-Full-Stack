@@ -1,0 +1,57 @@
+{
+    "player_name": "Alex Murphy",
+    "player_url": "https://understat.com/player/12199",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-01-31",
+            "Home": "Liverpool",
+            "Score": "4-1",
+            "Away": "Newcastle United",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2024-04-27",
+            "Home": "Newcastle United",
+            "Score": "5-1",
+            "Away": "Sheffield United",
+            "Pos": "Sub",
+            "Min": "4",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2023-11-25",
+            "Home": "Newcastle United",
+            "Score": "4-1",
+            "Away": "Chelsea",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

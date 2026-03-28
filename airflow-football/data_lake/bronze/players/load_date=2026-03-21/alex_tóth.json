@@ -1,0 +1,103 @@
+{
+    "player_name": "Alex Tóth",
+    "player_url": "https://understat.com/player/14374",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Bournemouth",
+            "Apps": "4",
+            "Min": "69",
+            "G": "0",
+            "A": "0",
+            "Sh90": "1.30",
+            "KP90": "3.91",
+            "xG": "0.10",
+            "xA": "0.25",
+            "xG90": "0.13",
+            "xA90": "0.33"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "4",
+            "Min": "69",
+            "G": "0",
+            "A": "0",
+            "Sh90": "1.30",
+            "KP90": "3.91",
+            "xG": "0.10",
+            "xA": "0.25",
+            "xG90": "0.13",
+            "xA90": "0.33"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-02-28",
+            "Home": "Bournemouth",
+            "Score": "1-1",
+            "Away": "Sunderland",
+            "Pos": "Sub",
+            "Min": "3",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.14"
+        },
+        {
+            "№": "2",
+            "Date": "2026-02-10",
+            "Home": "Everton",
+            "Score": "1-2",
+            "Away": "Bournemouth",
+            "Pos": "AMC",
+            "Min": "61",
+            "Sh": "0",
+            "G": "0",
+            "KP": "2",
+            "A": "0",
+            "xG": "",
+            "xA": "0.11"
+        },
+        {
+            "№": "3",
+            "Date": "2026-01-31",
+            "Home": "Wolverhampton Wanderers",
+            "Score": "0-2",
+            "Away": "Bournemouth",
+            "Pos": "Sub",
+            "Min": "3",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.10",
+            "xA": ""
+        },
+        {
+            "№": "4",
+            "Date": "2026-01-24",
+            "Home": "Bournemouth",
+            "Score": "3-2",
+            "Away": "Liverpool",
+            "Pos": "Sub",
+            "Min": "2",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

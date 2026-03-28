@@ -1,0 +1,118 @@
+{
+    "player_name": "George Earthy",
+    "player_url": "https://understat.com/player/12474",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "West Ham",
+            "Apps": "1",
+            "Min": "7",
+            "G": "0",
+            "A": "0",
+            "Sh90": "0.00",
+            "KP90": "0.00",
+            "xG": "",
+            "xA": "",
+            "xG90": "0.00",
+            "xA90": "0.00"
+        },
+        {
+            "№": "2",
+            "Season": "2023/2024",
+            "Team": "West Ham",
+            "Apps": "3",
+            "Min": "21",
+            "G": "1",
+            "A": "0",
+            "Sh90": "4.29",
+            "KP90": "0.00",
+            "xG": "0.63",
+            "xA": "",
+            "xG90": "2.70",
+            "xA90": "0.00"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "4",
+            "Min": "28",
+            "G": "1",
+            "A": "0",
+            "Sh90": "3.21",
+            "KP90": "0.00",
+            "xG": "0.63",
+            "xA": "",
+            "xG90": "2.02",
+            "xA90": "0.00"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2025-12-27",
+            "Home": "West Ham",
+            "Score": "0-1",
+            "Away": "Fulham",
+            "Pos": "Sub",
+            "Min": "7",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2024-05-19",
+            "Home": "Manchester City",
+            "Score": "3-1",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "5",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2024-05-11",
+            "Home": "West Ham",
+            "Score": "3-1",
+            "Away": "Luton",
+            "Pos": "Sub",
+            "Min": "10",
+            "Sh": "1",
+            "G": "1",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.63",
+            "xA": ""
+        },
+        {
+            "№": "4",
+            "Date": "2024-04-14",
+            "Home": "West Ham",
+            "Score": "0-2",
+            "Away": "Fulham",
+            "Pos": "Sub",
+            "Min": "6",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

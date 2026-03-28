@@ -1,0 +1,42 @@
+{
+    "player_name": "Joél Drakes-Thomas",
+    "player_url": "https://understat.com/player/14263",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-01-04",
+            "Home": "Newcastle United",
+            "Score": "2-0",
+            "Away": "Crystal Palace",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-12-20",
+            "Home": "Leeds",
+            "Score": "4-1",
+            "Away": "Crystal Palace",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

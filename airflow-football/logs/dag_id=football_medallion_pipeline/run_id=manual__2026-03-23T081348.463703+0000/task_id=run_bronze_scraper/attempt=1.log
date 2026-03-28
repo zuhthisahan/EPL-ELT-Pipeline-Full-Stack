@@ -1,0 +1,85 @@
+[2026-03-23T08:13:52.320+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T08:13:52.338+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T08:13:48.463703+00:00 [queued]>
+[2026-03-23T08:13:52.345+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T08:13:48.463703+00:00 [queued]>
+[2026-03-23T08:13:52.346+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2026-03-23T08:13:52.443+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): run_bronze_scraper> on 2026-03-23 08:13:48.463703+00:00
+[2026-03-23T08:13:52.451+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=76) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-03-23T08:13:52.454+0000] {standard_task_runner.py:63} INFO - Started process 78 to run task
+[2026-03-23T08:13:52.453+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'football_medallion_pipeline', 'run_bronze_scraper', 'manual__2026-03-23T08:13:48.463703+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/football_master_dag.py', '--cfg-path', '/tmp/tmpjom74t4a']
+[2026-03-23T08:13:52.457+0000] {standard_task_runner.py:91} INFO - Job 12: Subtask run_bronze_scraper
+[2026-03-23T08:13:52.526+0000] {task_command.py:426} INFO - Running <TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T08:13:48.463703+00:00 [running]> on host 96c1c57b3a15
+[2026-03-23T08:13:52.652+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='football_medallion_pipeline' AIRFLOW_CTX_TASK_ID='run_bronze_scraper' AIRFLOW_CTX_EXECUTION_DATE='2026-03-23T08:13:48.463703+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-23T08:13:48.463703+00:00'
+[2026-03-23T08:13:52.654+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-23T08:13:52.655+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-23T08:13:52.656+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/bronze_scraper.py ']
+[2026-03-23T08:13:52.665+0000] {subprocess.py:86} INFO - Output:
+[2026-03-23T08:13:59.679+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-03-23T08:13:59.679+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bronze_scraper.py", line 366, in <module>
+[2026-03-23T08:13:59.683+0000] {subprocess.py:93} INFO -     run_pipeline()
+[2026-03-23T08:13:59.683+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bronze_scraper.py", line 296, in run_pipeline
+[2026-03-23T08:13:59.687+0000] {subprocess.py:93} INFO -     driver = init_driver(BASE_URL)
+[2026-03-23T08:13:59.687+0000] {subprocess.py:93} INFO -              ^^^^^^^^^^^^^^^^^^^^^
+[2026-03-23T08:13:59.687+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bronze_scraper.py", line 22, in init_driver
+[2026-03-23T08:13:59.689+0000] {subprocess.py:93} INFO -     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+[2026-03-23T08:13:59.690+0000] {subprocess.py:93} INFO -              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-03-23T08:13:59.690+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+[2026-03-23T08:13:59.691+0000] {subprocess.py:93} INFO -     super().__init__(
+[2026-03-23T08:13:59.691+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+[2026-03-23T08:13:59.691+0000] {subprocess.py:93} INFO -     super().__init__(command_executor=executor, options=self.options)
+[2026-03-23T08:13:59.692+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/common/webdriver.py", line 25, in __init__
+[2026-03-23T08:13:59.692+0000] {subprocess.py:93} INFO -     super().__init__(*args, **kwargs)
+[2026-03-23T08:13:59.693+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 271, in __init__
+[2026-03-23T08:13:59.693+0000] {subprocess.py:93} INFO -     self.start_session(capabilities)
+[2026-03-23T08:13:59.694+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 366, in start_session
+[2026-03-23T08:13:59.694+0000] {subprocess.py:93} INFO -     response = self.execute(Command.NEW_SESSION, caps)["value"]
+[2026-03-23T08:13:59.694+0000] {subprocess.py:93} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-03-23T08:13:59.695+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 446, in execute
+[2026-03-23T08:13:59.695+0000] {subprocess.py:93} INFO -     self.error_handler.check_response(response)
+[2026-03-23T08:13:59.695+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+[2026-03-23T08:13:59.696+0000] {subprocess.py:93} INFO -     raise exception_class(message, screen, stacktrace)
+[2026-03-23T08:13:59.696+0000] {subprocess.py:93} INFO - selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.
+[2026-03-23T08:13:59.697+0000] {subprocess.py:93} INFO -   (unknown error: DevToolsActivePort file doesn't exist)
+[2026-03-23T08:13:59.697+0000] {subprocess.py:93} INFO -   (The process started from chrome location /usr/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+[2026-03-23T08:13:59.697+0000] {subprocess.py:93} INFO - Stacktrace:
+[2026-03-23T08:13:59.698+0000] {subprocess.py:93} INFO - #0 0x55bfa70874e3 <unknown>
+[2026-03-23T08:13:59.698+0000] {subprocess.py:93} INFO - #1 0x55bfa6db6c76 <unknown>
+[2026-03-23T08:13:59.698+0000] {subprocess.py:93} INFO - #2 0x55bfa6ddfd78 <unknown>
+[2026-03-23T08:13:59.699+0000] {subprocess.py:93} INFO - #3 0x55bfa6ddc029 <unknown>
+[2026-03-23T08:13:59.699+0000] {subprocess.py:93} INFO - #4 0x55bfa6e1accc <unknown>
+[2026-03-23T08:13:59.699+0000] {subprocess.py:93} INFO - #5 0x55bfa6e1a47f <unknown>
+[2026-03-23T08:13:59.700+0000] {subprocess.py:93} INFO - #6 0x55bfa6e11de3 <unknown>
+[2026-03-23T08:13:59.700+0000] {subprocess.py:93} INFO - #7 0x55bfa6de72dd <unknown>
+[2026-03-23T08:13:59.701+0000] {subprocess.py:93} INFO - #8 0x55bfa6de834e <unknown>
+[2026-03-23T08:13:59.701+0000] {subprocess.py:93} INFO - #9 0x55bfa70473e4 <unknown>
+[2026-03-23T08:13:59.701+0000] {subprocess.py:93} INFO - #10 0x55bfa704b3d7 <unknown>
+[2026-03-23T08:13:59.702+0000] {subprocess.py:93} INFO - #11 0x55bfa7055b20 <unknown>
+[2026-03-23T08:13:59.702+0000] {subprocess.py:93} INFO - #12 0x55bfa704c023 <unknown>
+[2026-03-23T08:13:59.703+0000] {subprocess.py:93} INFO - #13 0x55bfa701a1aa <unknown>
+[2026-03-23T08:13:59.703+0000] {subprocess.py:93} INFO - #14 0x55bfa70706b8 <unknown>
+[2026-03-23T08:13:59.703+0000] {subprocess.py:93} INFO - #15 0x55bfa7070847 <unknown>
+[2026-03-23T08:13:59.704+0000] {subprocess.py:93} INFO - #16 0x55bfa7080243 <unknown>
+[2026-03-23T08:13:59.704+0000] {subprocess.py:93} INFO - #17 0x7f3ffadf1134 <unknown>
+[2026-03-23T08:13:59.705+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:13:59.720+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-03-23T08:13:59.721+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-23T08:13:59.730+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-03-23T08:13:59.734+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=football_medallion_pipeline, task_id=run_bronze_scraper, execution_date=20260323T081348, start_date=20260323T081352, end_date=20260323T081359
+[2026-03-23T08:13:59.771+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 12 for task run_bronze_scraper (Bash command failed. The command returned a non-zero exit code 1.; 78)
+[2026-03-23T08:13:59.786+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-23T08:13:59.807+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T08:13:59.834+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

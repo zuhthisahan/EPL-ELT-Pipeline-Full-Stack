@@ -1,0 +1,102 @@
+{
+    "player_name": "Julio Soler",
+    "player_url": "https://understat.com/player/13474",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2025-12-27",
+            "Home": "Brentford",
+            "Score": "4-1",
+            "Away": "Bournemouth",
+            "Pos": "Sub",
+            "Min": "9",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-12-02",
+            "Home": "Bournemouth",
+            "Score": "0-1",
+            "Away": "Everton",
+            "Pos": "Sub",
+            "Min": "17",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2025-09-13",
+            "Home": "Bournemouth",
+            "Score": "2-1",
+            "Away": "Brighton",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "4",
+            "Date": "2025-05-25",
+            "Home": "Bournemouth",
+            "Score": "2-0",
+            "Away": "Leicester",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "5",
+            "Date": "2025-05-20",
+            "Home": "Manchester City",
+            "Score": "3-1",
+            "Away": "Bournemouth",
+            "Pos": "Sub",
+            "Min": "5",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "6",
+            "Date": "2025-04-14",
+            "Home": "Bournemouth",
+            "Score": "1-0",
+            "Away": "Fulham",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

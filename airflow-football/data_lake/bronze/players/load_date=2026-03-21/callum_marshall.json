@@ -1,0 +1,73 @@
+{
+    "player_name": "Callum Marshall",
+    "player_url": "https://understat.com/player/12359",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "West Ham",
+            "Apps": "2",
+            "Min": "44",
+            "G": "0",
+            "A": "0",
+            "Sh90": "2.05",
+            "KP90": "0.00",
+            "xG": "0.23",
+            "xA": "",
+            "xG90": "0.47",
+            "xA90": "0.00"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "2",
+            "Min": "44",
+            "G": "0",
+            "A": "0",
+            "Sh90": "2.05",
+            "KP90": "0.00",
+            "xG": "0.23",
+            "xA": "",
+            "xG90": "0.47",
+            "xA90": "0.00"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2025-10-20",
+            "Home": "West Ham",
+            "Score": "0-2",
+            "Away": "Brentford",
+            "Pos": "Sub",
+            "Min": "20",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-10-04",
+            "Home": "Arsenal",
+            "Score": "2-0",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "24",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.23",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

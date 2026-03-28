@@ -1,0 +1,57 @@
+{
+    "player_name": "Hákon Valdimarsson",
+    "player_url": "https://understat.com/player/12595",
+    "seasonal_performance": [],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-02-28",
+            "Home": "Burnley",
+            "Score": "3-4",
+            "Away": "Brentford",
+            "Pos": "GK",
+            "Min": "90",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2025-02-02",
+            "Home": "Brentford",
+            "Score": "0-2",
+            "Away": "Tottenham",
+            "Pos": "GK",
+            "Min": "90",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2024-12-27",
+            "Home": "Brighton",
+            "Score": "0-0",
+            "Away": "Brentford",
+            "Pos": "Sub",
+            "Min": "55",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

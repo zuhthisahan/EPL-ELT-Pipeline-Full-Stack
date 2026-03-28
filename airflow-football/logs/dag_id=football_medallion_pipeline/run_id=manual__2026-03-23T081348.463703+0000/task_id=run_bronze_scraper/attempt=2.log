@@ -1,0 +1,85 @@
+[2026-03-23T08:20:39.027+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T08:20:39.050+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T08:13:48.463703+00:00 [queued]>
+[2026-03-23T08:20:39.060+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T08:13:48.463703+00:00 [queued]>
+[2026-03-23T08:20:39.060+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 3
+[2026-03-23T08:20:39.127+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): run_bronze_scraper> on 2026-03-23 08:13:48.463703+00:00
+[2026-03-23T08:20:39.134+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=213) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-03-23T08:20:39.137+0000] {standard_task_runner.py:63} INFO - Started process 215 to run task
+[2026-03-23T08:20:39.137+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'football_medallion_pipeline', 'run_bronze_scraper', 'manual__2026-03-23T08:13:48.463703+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/football_master_dag.py', '--cfg-path', '/tmp/tmppidwk3ff']
+[2026-03-23T08:20:39.140+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask run_bronze_scraper
+[2026-03-23T08:20:39.218+0000] {task_command.py:426} INFO - Running <TaskInstance: football_medallion_pipeline.run_bronze_scraper manual__2026-03-23T08:13:48.463703+00:00 [running]> on host 96c1c57b3a15
+[2026-03-23T08:20:39.347+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='football_medallion_pipeline' AIRFLOW_CTX_TASK_ID='run_bronze_scraper' AIRFLOW_CTX_EXECUTION_DATE='2026-03-23T08:13:48.463703+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-23T08:13:48.463703+00:00'
+[2026-03-23T08:20:39.349+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-23T08:20:39.350+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-23T08:20:39.351+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/bronze_scraper.py ']
+[2026-03-23T08:20:39.364+0000] {subprocess.py:86} INFO - Output:
+[2026-03-23T08:20:43.113+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-03-23T08:20:43.113+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bronze_scraper.py", line 373, in <module>
+[2026-03-23T08:20:43.116+0000] {subprocess.py:93} INFO -     run_pipeline()
+[2026-03-23T08:20:43.117+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bronze_scraper.py", line 303, in run_pipeline
+[2026-03-23T08:20:43.120+0000] {subprocess.py:93} INFO -     driver = init_driver(BASE_URL)
+[2026-03-23T08:20:43.120+0000] {subprocess.py:93} INFO -              ^^^^^^^^^^^^^^^^^^^^^
+[2026-03-23T08:20:43.121+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bronze_scraper.py", line 30, in init_driver
+[2026-03-23T08:20:43.122+0000] {subprocess.py:93} INFO -     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+[2026-03-23T08:20:43.122+0000] {subprocess.py:93} INFO -              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-03-23T08:20:43.123+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+[2026-03-23T08:20:43.123+0000] {subprocess.py:93} INFO -     super().__init__(
+[2026-03-23T08:20:43.124+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+[2026-03-23T08:20:43.124+0000] {subprocess.py:93} INFO -     super().__init__(command_executor=executor, options=self.options)
+[2026-03-23T08:20:43.125+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/common/webdriver.py", line 25, in __init__
+[2026-03-23T08:20:43.125+0000] {subprocess.py:93} INFO -     super().__init__(*args, **kwargs)
+[2026-03-23T08:20:43.126+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 271, in __init__
+[2026-03-23T08:20:43.126+0000] {subprocess.py:93} INFO -     self.start_session(capabilities)
+[2026-03-23T08:20:43.127+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 366, in start_session
+[2026-03-23T08:20:43.127+0000] {subprocess.py:93} INFO -     response = self.execute(Command.NEW_SESSION, caps)["value"]
+[2026-03-23T08:20:43.128+0000] {subprocess.py:93} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-03-23T08:20:43.128+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 446, in execute
+[2026-03-23T08:20:43.129+0000] {subprocess.py:93} INFO -     self.error_handler.check_response(response)
+[2026-03-23T08:20:43.129+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+[2026-03-23T08:20:43.130+0000] {subprocess.py:93} INFO -     raise exception_class(message, screen, stacktrace)
+[2026-03-23T08:20:43.130+0000] {subprocess.py:93} INFO - selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+[2026-03-23T08:20:43.131+0000] {subprocess.py:93} INFO - Current browser version is 146.0.7680.153 with binary path /usr/bin/chromium; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+[2026-03-23T08:20:43.131+0000] {subprocess.py:93} INFO - Stacktrace:
+[2026-03-23T08:20:43.132+0000] {subprocess.py:93} INFO - #0 0x55f2670b44e3 <unknown>
+[2026-03-23T08:20:43.132+0000] {subprocess.py:93} INFO - #1 0x55f266de3c76 <unknown>
+[2026-03-23T08:20:43.133+0000] {subprocess.py:93} INFO - #2 0x55f266e1104a <unknown>
+[2026-03-23T08:20:43.133+0000] {subprocess.py:93} INFO - #3 0x55f266e0c4a1 <unknown>
+[2026-03-23T08:20:43.134+0000] {subprocess.py:93} INFO - #4 0x55f266e09029 <unknown>
+[2026-03-23T08:20:43.134+0000] {subprocess.py:93} INFO - #5 0x55f266e47ccc <unknown>
+[2026-03-23T08:20:43.135+0000] {subprocess.py:93} INFO - #6 0x55f266e4747f <unknown>
+[2026-03-23T08:20:43.136+0000] {subprocess.py:93} INFO - #7 0x55f266e3ede3 <unknown>
+[2026-03-23T08:20:43.136+0000] {subprocess.py:93} INFO - #8 0x55f266e142dd <unknown>
+[2026-03-23T08:20:43.136+0000] {subprocess.py:93} INFO - #9 0x55f266e1534e <unknown>
+[2026-03-23T08:20:43.137+0000] {subprocess.py:93} INFO - #10 0x55f2670743e4 <unknown>
+[2026-03-23T08:20:43.138+0000] {subprocess.py:93} INFO - #11 0x55f2670783d7 <unknown>
+[2026-03-23T08:20:43.138+0000] {subprocess.py:93} INFO - #12 0x55f267082b20 <unknown>
+[2026-03-23T08:20:43.139+0000] {subprocess.py:93} INFO - #13 0x55f267079023 <unknown>
+[2026-03-23T08:20:43.139+0000] {subprocess.py:93} INFO - #14 0x55f2670471aa <unknown>
+[2026-03-23T08:20:43.140+0000] {subprocess.py:93} INFO - #15 0x55f26709d6b8 <unknown>
+[2026-03-23T08:20:43.140+0000] {subprocess.py:93} INFO - #16 0x55f26709d847 <unknown>
+[2026-03-23T08:20:43.141+0000] {subprocess.py:93} INFO - #17 0x55f2670ad243 <unknown>
+[2026-03-23T08:20:43.141+0000] {subprocess.py:93} INFO - #18 0x7fb635c88134 <unknown>
+[2026-03-23T08:20:43.142+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:20:43.167+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-03-23T08:20:43.168+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-23T08:20:43.178+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-03-23T08:20:43.182+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=football_medallion_pipeline, task_id=run_bronze_scraper, execution_date=20260323T081348, start_date=20260323T082039, end_date=20260323T082043
+[2026-03-23T08:20:43.222+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 13 for task run_bronze_scraper (Bash command failed. The command returned a non-zero exit code 1.; 215)
+[2026-03-23T08:20:43.242+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-23T08:20:43.266+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T08:20:43.296+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

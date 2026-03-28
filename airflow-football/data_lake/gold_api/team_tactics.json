@@ -1,0 +1,800 @@
+[
+    {
+        "team_name": "Arsenal",
+        "play_type": "Open play",
+        "goals_scored": 39,
+        "expected_goals": 44.38,
+        "total_shots": 335,
+        "xg_per_shot": 0.13
+    },
+    {
+        "team_name": "Arsenal",
+        "play_type": "From corner",
+        "goals_scored": 16,
+        "expected_goals": 16.24,
+        "total_shots": 89,
+        "xg_per_shot": 0.18
+    },
+    {
+        "team_name": "Arsenal",
+        "play_type": "Penalty",
+        "goals_scored": 3,
+        "expected_goals": 2.28,
+        "total_shots": 3,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Arsenal",
+        "play_type": "Set piece",
+        "goals_scored": 3,
+        "expected_goals": 3.5,
+        "total_shots": 25,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Arsenal",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.29,
+        "total_shots": 7,
+        "xg_per_shot": 0.04
+    },
+    {
+        "team_name": "Aston Villa",
+        "play_type": "Open play",
+        "goals_scored": 28,
+        "expected_goals": 32.07,
+        "total_shots": 270,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Aston Villa",
+        "play_type": "From corner",
+        "goals_scored": 10,
+        "expected_goals": 7.57,
+        "total_shots": 76,
+        "xg_per_shot": 0.1
+    },
+    {
+        "team_name": "Aston Villa",
+        "play_type": "Direct Freekick",
+        "goals_scored": 2,
+        "expected_goals": 0.97,
+        "total_shots": 12,
+        "xg_per_shot": 0.08
+    },
+    {
+        "team_name": "Aston Villa",
+        "play_type": "Penalty",
+        "goals_scored": 0,
+        "total_shots": 0,
+        "xg_per_shot": 0.0
+    },
+    {
+        "team_name": "Aston Villa",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 3.31,
+        "total_shots": 17,
+        "xg_per_shot": 0.19
+    },
+    {
+        "team_name": "Bournemouth",
+        "play_type": "Open play",
+        "goals_scored": 31,
+        "expected_goals": 39.78,
+        "total_shots": 326,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Bournemouth",
+        "play_type": "Set piece",
+        "goals_scored": 5,
+        "expected_goals": 3.28,
+        "total_shots": 23,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Bournemouth",
+        "play_type": "From corner",
+        "goals_scored": 3,
+        "expected_goals": 6.56,
+        "total_shots": 51,
+        "xg_per_shot": 0.13
+    },
+    {
+        "team_name": "Bournemouth",
+        "play_type": "Penalty",
+        "goals_scored": 3,
+        "expected_goals": 3.04,
+        "total_shots": 4,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Bournemouth",
+        "play_type": "Direct Freekick",
+        "goals_scored": 2,
+        "expected_goals": 1.07,
+        "total_shots": 15,
+        "xg_per_shot": 0.07
+    },
+    {
+        "team_name": "Brentford",
+        "play_type": "Open play",
+        "goals_scored": 37,
+        "expected_goals": 38.22,
+        "total_shots": 235,
+        "xg_per_shot": 0.16
+    },
+    {
+        "team_name": "Brentford",
+        "play_type": "Penalty",
+        "goals_scored": 6,
+        "expected_goals": 6.09,
+        "total_shots": 8,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Brentford",
+        "play_type": "From corner",
+        "goals_scored": 3,
+        "expected_goals": 6.61,
+        "total_shots": 48,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Brentford",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.53,
+        "total_shots": 7,
+        "xg_per_shot": 0.08
+    },
+    {
+        "team_name": "Brentford",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 3.97,
+        "total_shots": 18,
+        "xg_per_shot": 0.22
+    },
+    {
+        "team_name": "Brighton and Hove Albion",
+        "play_type": "Open play",
+        "goals_scored": 28,
+        "expected_goals": 32.21,
+        "total_shots": 293,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Brighton and Hove Albion",
+        "play_type": "From corner",
+        "goals_scored": 7,
+        "expected_goals": 7.26,
+        "total_shots": 60,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Brighton and Hove Albion",
+        "play_type": "Penalty",
+        "goals_scored": 3,
+        "expected_goals": 3.81,
+        "total_shots": 5,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Brighton and Hove Albion",
+        "play_type": "Direct Freekick",
+        "goals_scored": 1,
+        "expected_goals": 0.58,
+        "total_shots": 11,
+        "xg_per_shot": 0.05
+    },
+    {
+        "team_name": "Brighton and Hove Albion",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 0.55,
+        "total_shots": 14,
+        "xg_per_shot": 0.04
+    },
+    {
+        "team_name": "Burnley",
+        "play_type": "Open play",
+        "goals_scored": 26,
+        "expected_goals": 21.82,
+        "total_shots": 195,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Burnley",
+        "play_type": "From corner",
+        "goals_scored": 4,
+        "expected_goals": 5.41,
+        "total_shots": 47,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Burnley",
+        "play_type": "Penalty",
+        "goals_scored": 2,
+        "expected_goals": 1.52,
+        "total_shots": 2,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Burnley",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.76,
+        "total_shots": 13,
+        "xg_per_shot": 0.06
+    },
+    {
+        "team_name": "Burnley",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 2.81,
+        "total_shots": 23,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Chelsea",
+        "play_type": "Open play",
+        "goals_scored": 33,
+        "expected_goals": 46.38,
+        "total_shots": 311,
+        "xg_per_shot": 0.15
+    },
+    {
+        "team_name": "Chelsea",
+        "play_type": "From corner",
+        "goals_scored": 10,
+        "expected_goals": 11.31,
+        "total_shots": 68,
+        "xg_per_shot": 0.17
+    },
+    {
+        "team_name": "Chelsea",
+        "play_type": "Penalty",
+        "goals_scored": 7,
+        "expected_goals": 5.33,
+        "total_shots": 7,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Chelsea",
+        "play_type": "Direct Freekick",
+        "goals_scored": 2,
+        "expected_goals": 0.77,
+        "total_shots": 14,
+        "xg_per_shot": 0.05
+    },
+    {
+        "team_name": "Chelsea",
+        "play_type": "Set piece",
+        "goals_scored": 1,
+        "expected_goals": 1.79,
+        "total_shots": 15,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Crystal Palace",
+        "play_type": "Open play",
+        "goals_scored": 19,
+        "expected_goals": 34.94,
+        "total_shots": 254,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Crystal Palace",
+        "play_type": "From corner",
+        "goals_scored": 7,
+        "expected_goals": 8.99,
+        "total_shots": 61,
+        "xg_per_shot": 0.15
+    },
+    {
+        "team_name": "Crystal Palace",
+        "play_type": "Penalty",
+        "goals_scored": 6,
+        "expected_goals": 4.57,
+        "total_shots": 6,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Crystal Palace",
+        "play_type": "Set piece",
+        "goals_scored": 1,
+        "expected_goals": 1.69,
+        "total_shots": 24,
+        "xg_per_shot": 0.07
+    },
+    {
+        "team_name": "Crystal Palace",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.37,
+        "total_shots": 6,
+        "xg_per_shot": 0.06
+    },
+    {
+        "team_name": "Everton",
+        "play_type": "Open play",
+        "goals_scored": 24,
+        "expected_goals": 27.66,
+        "total_shots": 221,
+        "xg_per_shot": 0.13
+    },
+    {
+        "team_name": "Everton",
+        "play_type": "From corner",
+        "goals_scored": 5,
+        "expected_goals": 6.77,
+        "total_shots": 63,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Everton",
+        "play_type": "Set piece",
+        "goals_scored": 3,
+        "expected_goals": 5.07,
+        "total_shots": 36,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Everton",
+        "play_type": "Penalty",
+        "goals_scored": 2,
+        "expected_goals": 1.52,
+        "total_shots": 2,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Everton",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.42,
+        "total_shots": 10,
+        "xg_per_shot": 0.04
+    },
+    {
+        "team_name": "Fulham",
+        "play_type": "Open play",
+        "goals_scored": 28,
+        "expected_goals": 29.98,
+        "total_shots": 271,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Fulham",
+        "play_type": "From corner",
+        "goals_scored": 8,
+        "expected_goals": 8.56,
+        "total_shots": 69,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Fulham",
+        "play_type": "Penalty",
+        "goals_scored": 3,
+        "expected_goals": 2.28,
+        "total_shots": 3,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Fulham",
+        "play_type": "Direct Freekick",
+        "goals_scored": 1,
+        "expected_goals": 0.84,
+        "total_shots": 9,
+        "xg_per_shot": 0.09
+    },
+    {
+        "team_name": "Fulham",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 0.48,
+        "total_shots": 10,
+        "xg_per_shot": 0.05
+    },
+    {
+        "team_name": "Leeds United",
+        "play_type": "Open play",
+        "goals_scored": 22,
+        "expected_goals": 31.26,
+        "total_shots": 261,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Leeds United",
+        "play_type": "From corner",
+        "goals_scored": 6,
+        "expected_goals": 7.35,
+        "total_shots": 72,
+        "xg_per_shot": 0.1
+    },
+    {
+        "team_name": "Leeds United",
+        "play_type": "Penalty",
+        "goals_scored": 4,
+        "expected_goals": 4.57,
+        "total_shots": 6,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Leeds United",
+        "play_type": "Direct Freekick",
+        "goals_scored": 3,
+        "expected_goals": 0.48,
+        "total_shots": 8,
+        "xg_per_shot": 0.06
+    },
+    {
+        "team_name": "Leeds United",
+        "play_type": "Set piece",
+        "goals_scored": 2,
+        "expected_goals": 3.31,
+        "total_shots": 24,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Liverpool",
+        "play_type": "Open play",
+        "goals_scored": 37,
+        "expected_goals": 47.41,
+        "total_shots": 374,
+        "xg_per_shot": 0.13
+    },
+    {
+        "team_name": "Liverpool",
+        "play_type": "From corner",
+        "goals_scored": 7,
+        "expected_goals": 6.56,
+        "total_shots": 61,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Liverpool",
+        "play_type": "Direct Freekick",
+        "goals_scored": 4,
+        "expected_goals": 0.81,
+        "total_shots": 14,
+        "xg_per_shot": 0.06
+    },
+    {
+        "team_name": "Liverpool",
+        "play_type": "Penalty",
+        "goals_scored": 1,
+        "expected_goals": 1.52,
+        "total_shots": 2,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Liverpool",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 1.47,
+        "total_shots": 21,
+        "xg_per_shot": 0.07
+    },
+    {
+        "team_name": "Manchester City",
+        "play_type": "Open play",
+        "goals_scored": 50,
+        "expected_goals": 52.05,
+        "total_shots": 341,
+        "xg_per_shot": 0.15
+    },
+    {
+        "team_name": "Manchester City",
+        "play_type": "From corner",
+        "goals_scored": 7,
+        "expected_goals": 8.35,
+        "total_shots": 81,
+        "xg_per_shot": 0.1
+    },
+    {
+        "team_name": "Manchester City",
+        "play_type": "Penalty",
+        "goals_scored": 3,
+        "expected_goals": 3.04,
+        "total_shots": 4,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Manchester City",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.56,
+        "total_shots": 9,
+        "xg_per_shot": 0.06
+    },
+    {
+        "team_name": "Manchester City",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 0.91,
+        "total_shots": 10,
+        "xg_per_shot": 0.09
+    },
+    {
+        "team_name": "Manchester United",
+        "play_type": "Open play",
+        "goals_scored": 36,
+        "expected_goals": 45.16,
+        "total_shots": 372,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Manchester United",
+        "play_type": "From corner",
+        "goals_scored": 9,
+        "expected_goals": 7.55,
+        "total_shots": 72,
+        "xg_per_shot": 0.1
+    },
+    {
+        "team_name": "Manchester United",
+        "play_type": "Set piece",
+        "goals_scored": 5,
+        "expected_goals": 4.08,
+        "total_shots": 25,
+        "xg_per_shot": 0.16
+    },
+    {
+        "team_name": "Manchester United",
+        "play_type": "Penalty",
+        "goals_scored": 3,
+        "expected_goals": 3.81,
+        "total_shots": 5,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Manchester United",
+        "play_type": "Direct Freekick",
+        "goals_scored": 1,
+        "expected_goals": 0.48,
+        "total_shots": 6,
+        "xg_per_shot": 0.08
+    },
+    {
+        "team_name": "Newcastle United",
+        "play_type": "Open play",
+        "goals_scored": 25,
+        "expected_goals": 29.32,
+        "total_shots": 258,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Newcastle United",
+        "play_type": "From corner",
+        "goals_scored": 8,
+        "expected_goals": 10.79,
+        "total_shots": 80,
+        "xg_per_shot": 0.13
+    },
+    {
+        "team_name": "Newcastle United",
+        "play_type": "Penalty",
+        "goals_scored": 6,
+        "expected_goals": 4.57,
+        "total_shots": 6,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Newcastle United",
+        "play_type": "Set piece",
+        "goals_scored": 4,
+        "expected_goals": 5.8,
+        "total_shots": 41,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Newcastle United",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.41,
+        "total_shots": 8,
+        "xg_per_shot": 0.05
+    },
+    {
+        "team_name": "Nottingham Forest",
+        "play_type": "Open play",
+        "goals_scored": 21,
+        "expected_goals": 27.66,
+        "total_shots": 290,
+        "xg_per_shot": 0.1
+    },
+    {
+        "team_name": "Nottingham Forest",
+        "play_type": "From corner",
+        "goals_scored": 4,
+        "expected_goals": 4.78,
+        "total_shots": 61,
+        "xg_per_shot": 0.08
+    },
+    {
+        "team_name": "Nottingham Forest",
+        "play_type": "Penalty",
+        "goals_scored": 2,
+        "expected_goals": 1.52,
+        "total_shots": 2,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Nottingham Forest",
+        "play_type": "Set piece",
+        "goals_scored": 1,
+        "expected_goals": 1.48,
+        "total_shots": 19,
+        "xg_per_shot": 0.08
+    },
+    {
+        "team_name": "Nottingham Forest",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.62,
+        "total_shots": 11,
+        "xg_per_shot": 0.06
+    },
+    {
+        "team_name": "Sunderland",
+        "play_type": "Open play",
+        "goals_scored": 21,
+        "expected_goals": 23.74,
+        "total_shots": 210,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Sunderland",
+        "play_type": "Penalty",
+        "goals_scored": 4,
+        "expected_goals": 3.81,
+        "total_shots": 5,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Sunderland",
+        "play_type": "Set piece",
+        "goals_scored": 3,
+        "expected_goals": 3.17,
+        "total_shots": 27,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "Sunderland",
+        "play_type": "From corner",
+        "goals_scored": 2,
+        "expected_goals": 3.08,
+        "total_shots": 44,
+        "xg_per_shot": 0.07
+    },
+    {
+        "team_name": "Sunderland",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.22,
+        "total_shots": 5,
+        "xg_per_shot": 0.04
+    },
+    {
+        "team_name": "Tottenham Hotspur",
+        "play_type": "Open play",
+        "goals_scored": 26,
+        "expected_goals": 26.35,
+        "total_shots": 240,
+        "xg_per_shot": 0.11
+    },
+    {
+        "team_name": "Tottenham Hotspur",
+        "play_type": "From corner",
+        "goals_scored": 14,
+        "expected_goals": 9.15,
+        "total_shots": 65,
+        "xg_per_shot": 0.14
+    },
+    {
+        "team_name": "Tottenham Hotspur",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.53,
+        "total_shots": 9,
+        "xg_per_shot": 0.06
+    },
+    {
+        "team_name": "Tottenham Hotspur",
+        "play_type": "Penalty",
+        "goals_scored": 0,
+        "total_shots": 0,
+        "xg_per_shot": 0.0
+    },
+    {
+        "team_name": "Tottenham Hotspur",
+        "play_type": "Set piece",
+        "goals_scored": 0,
+        "expected_goals": 0.93,
+        "total_shots": 18,
+        "xg_per_shot": 0.05
+    },
+    {
+        "team_name": "West Ham United",
+        "play_type": "Open play",
+        "goals_scored": 23,
+        "expected_goals": 24.53,
+        "total_shots": 213,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "West Ham United",
+        "play_type": "From corner",
+        "goals_scored": 8,
+        "expected_goals": 10.75,
+        "total_shots": 63,
+        "xg_per_shot": 0.17
+    },
+    {
+        "team_name": "West Ham United",
+        "play_type": "Penalty",
+        "goals_scored": 3,
+        "expected_goals": 2.28,
+        "total_shots": 3,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "West Ham United",
+        "play_type": "Set piece",
+        "goals_scored": 2,
+        "expected_goals": 2.86,
+        "total_shots": 23,
+        "xg_per_shot": 0.12
+    },
+    {
+        "team_name": "West Ham United",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.28,
+        "total_shots": 4,
+        "xg_per_shot": 0.07
+    },
+    {
+        "team_name": "Wolverhampton Wanderers",
+        "play_type": "Open play",
+        "goals_scored": 15,
+        "expected_goals": 17.94,
+        "total_shots": 203,
+        "xg_per_shot": 0.09
+    },
+    {
+        "team_name": "Wolverhampton Wanderers",
+        "play_type": "From corner",
+        "goals_scored": 5,
+        "expected_goals": 5.78,
+        "total_shots": 46,
+        "xg_per_shot": 0.13
+    },
+    {
+        "team_name": "Wolverhampton Wanderers",
+        "play_type": "Penalty",
+        "goals_scored": 2,
+        "expected_goals": 3.04,
+        "total_shots": 4,
+        "xg_per_shot": 0.76
+    },
+    {
+        "team_name": "Wolverhampton Wanderers",
+        "play_type": "Set piece",
+        "goals_scored": 2,
+        "expected_goals": 3.22,
+        "total_shots": 20,
+        "xg_per_shot": 0.16
+    },
+    {
+        "team_name": "Wolverhampton Wanderers",
+        "play_type": "Direct Freekick",
+        "goals_scored": 0,
+        "expected_goals": 0.94,
+        "total_shots": 13,
+        "xg_per_shot": 0.07
+    }
+]

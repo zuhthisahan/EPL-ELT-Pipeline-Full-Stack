@@ -1,0 +1,103 @@
+{
+    "player_name": "Treymaurice Nyoni",
+    "player_url": "https://understat.com/player/12203",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Liverpool",
+            "Apps": "4",
+            "Min": "8",
+            "G": "0",
+            "A": "0",
+            "Sh90": "11.25",
+            "KP90": "11.25",
+            "xG": "0.48",
+            "xA": "0.05",
+            "xG90": "5.39",
+            "xA90": "0.56"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "4",
+            "Min": "8",
+            "G": "0",
+            "A": "0",
+            "Sh90": "11.25",
+            "KP90": "11.25",
+            "xG": "0.48",
+            "xA": "0.05",
+            "xG90": "5.39",
+            "xA90": "0.56"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-03-15",
+            "Home": "Liverpool",
+            "Score": "1-1",
+            "Away": "Tottenham",
+            "Pos": "Sub",
+            "Min": "5",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2026-02-28",
+            "Home": "Liverpool",
+            "Score": "5-2",
+            "Away": "West Ham",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.48",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2025-12-27",
+            "Home": "Liverpool",
+            "Score": "2-1",
+            "Away": "Wolverhampton Wanderers",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "1",
+            "A": "0",
+            "xG": "",
+            "xA": "0.05"
+        },
+        {
+            "№": "4",
+            "Date": "2025-12-20",
+            "Home": "Tottenham",
+            "Score": "1-2",
+            "Away": "Liverpool",
+            "Pos": "Sub",
+            "Min": "1",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}

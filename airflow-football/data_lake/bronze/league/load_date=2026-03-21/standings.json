@@ -1,0 +1,389 @@
+{
+    "data": [
+        {
+            "Team": "Arsenal",
+            "URL": "https://understat.com/team/Arsenal/2025",
+            "Data": [
+                "1",
+                "Arsenal",
+                "https://understat.com/team/Arsenal/2025",
+                "31",
+                "21",
+                "7",
+                "3",
+                "61",
+                "22",
+                "70",
+                "60.74",
+                "25.04",
+                "65.56"
+            ]
+        },
+        {
+            "Team": "Manchester City",
+            "URL": "https://understat.com/team/Manchester_City/2025",
+            "Data": [
+                "2",
+                "Manchester City",
+                "https://understat.com/team/Manchester_City/2025",
+                "30",
+                "18",
+                "7",
+                "5",
+                "60",
+                "28",
+                "61",
+                "60.53",
+                "35.07",
+                "59.13"
+            ]
+        },
+        {
+            "Team": "Manchester United",
+            "URL": "https://understat.com/team/Manchester_United/2025",
+            "Data": [
+                "3",
+                "Manchester United",
+                "https://understat.com/team/Manchester_United/2025",
+                "31",
+                "15",
+                "10",
+                "6",
+                "56",
+                "43",
+                "55",
+                "58.83",
+                "39.93",
+                "53.16"
+            ]
+        },
+        {
+            "Team": "Aston Villa",
+            "URL": "https://understat.com/team/Aston_Villa/2025",
+            "Data": [
+                "4",
+                "Aston Villa",
+                "https://understat.com/team/Aston_Villa/2025",
+                "30",
+                "15",
+                "6",
+                "9",
+                "40",
+                "37",
+                "51",
+                "40.22",
+                "46.51",
+                "36.53"
+            ]
+        },
+        {
+            "Team": "Liverpool",
+            "URL": "https://understat.com/team/Liverpool/2025",
+            "Data": [
+                "5",
+                "Liverpool",
+                "https://understat.com/team/Liverpool/2025",
+                "30",
+                "14",
+                "7",
+                "9",
+                "49",
+                "40",
+                "49",
+                "55.26",
+                "38.20",
+                "52.68"
+            ]
+        },
+        {
+            "Team": "Chelsea",
+            "URL": "https://understat.com/team/Chelsea/2025",
+            "Data": [
+                "6",
+                "Chelsea",
+                "https://understat.com/team/Chelsea/2025",
+                "30",
+                "13",
+                "9",
+                "8",
+                "53",
+                "35",
+                "48",
+                "63.28",
+                "43.89",
+                "51.25"
+            ]
+        },
+        {
+            "Team": "Brentford",
+            "URL": "https://understat.com/team/Brentford/2025",
+            "Data": [
+                "7",
+                "Brentford",
+                "https://understat.com/team/Brentford/2025",
+                "30",
+                "13",
+                "6",
+                "11",
+                "46",
+                "42",
+                "45",
+                "54.10",
+                "44.54",
+                "46.81"
+            ]
+        },
+        {
+            "Team": "Everton",
+            "URL": "https://understat.com/team/Everton/2025",
+            "Data": [
+                "8",
+                "Everton",
+                "https://understat.com/team/Everton/2025",
+                "30",
+                "12",
+                "7",
+                "11",
+                "34",
+                "35",
+                "43",
+                "38.88",
+                "45.77",
+                "37.54"
+            ]
+        },
+        {
+            "Team": "Newcastle United",
+            "URL": "https://understat.com/team/Newcastle_United/2025",
+            "Data": [
+                "9",
+                "Newcastle United",
+                "https://understat.com/team/Newcastle_United/2025",
+                "30",
+                "12",
+                "6",
+                "12",
+                "43",
+                "43",
+                "42",
+                "48.44",
+                "41.48",
+                "45.93"
+            ]
+        },
+        {
+            "Team": "Bournemouth",
+            "URL": "https://understat.com/team/Bournemouth/2025",
+            "Data": [
+                "10",
+                "Bournemouth",
+                "https://understat.com/team/Bournemouth/2025",
+                "31",
+                "9",
+                "15",
+                "7",
+                "46",
+                "48",
+                "42",
+                "53.81",
+                "45.53",
+                "49.32"
+            ]
+        },
+        {
+            "Team": "Fulham",
+            "URL": "https://understat.com/team/Fulham/2025",
+            "Data": [
+                "11",
+                "Fulham",
+                "https://understat.com/team/Fulham/2025",
+                "30",
+                "12",
+                "5",
+                "13",
+                "40",
+                "43",
+                "41",
+                "37.49",
+                "46.83",
+                "34.26"
+            ]
+        },
+        {
+            "Team": "Brighton",
+            "URL": "https://understat.com/team/Brighton/2025",
+            "Data": [
+                "12",
+                "Brighton",
+                "https://understat.com/team/Brighton/2025",
+                "30",
+                "10",
+                "10",
+                "10",
+                "39",
+                "36",
+                "40",
+                "43.23",
+                "43.40",
+                "41.31"
+            ]
+        },
+        {
+            "Team": "Sunderland",
+            "URL": "https://understat.com/team/Sunderland/2025",
+            "Data": [
+                "13",
+                "Sunderland",
+                "https://understat.com/team/Sunderland/2025",
+                "30",
+                "10",
+                "10",
+                "10",
+                "30",
+                "35",
+                "40",
+                "30.74",
+                "47.87",
+                "30.62"
+            ]
+        },
+        {
+            "Team": "Crystal Palace",
+            "URL": "https://understat.com/team/Crystal_Palace/2025",
+            "Data": [
+                "14",
+                "Crystal Palace",
+                "https://understat.com/team/Crystal_Palace/2025",
+                "30",
+                "10",
+                "9",
+                "11",
+                "33",
+                "35",
+                "39",
+                "49.16",
+                "44.89",
+                "43.54"
+            ]
+        },
+        {
+            "Team": "Leeds",
+            "URL": "https://understat.com/team/Leeds/2025",
+            "Data": [
+                "15",
+                "Leeds",
+                "https://understat.com/team/Leeds/2025",
+                "30",
+                "7",
+                "11",
+                "12",
+                "37",
+                "48",
+                "32",
+                "44.97",
+                "45.29",
+                "43.35"
+            ]
+        },
+        {
+            "Team": "Tottenham",
+            "URL": "https://understat.com/team/Tottenham/2025",
+            "Data": [
+                "16",
+                "Tottenham",
+                "https://understat.com/team/Tottenham/2025",
+                "30",
+                "7",
+                "9",
+                "14",
+                "40",
+                "47",
+                "30",
+                "35.37",
+                "46.53",
+                "36.13"
+            ]
+        },
+        {
+            "Team": "Nottingham Forest",
+            "URL": "https://understat.com/team/Nottingham_Forest/2025",
+            "Data": [
+                "17",
+                "Nottingham Forest",
+                "https://understat.com/team/Nottingham_Forest/2025",
+                "30",
+                "7",
+                "8",
+                "15",
+                "28",
+                "43",
+                "29",
+                "35.88",
+                "51.10",
+                "30.85"
+            ]
+        },
+        {
+            "Team": "West Ham",
+            "URL": "https://understat.com/team/West_Ham/2025",
+            "Data": [
+                "18",
+                "West Ham",
+                "https://understat.com/team/West_Ham/2025",
+                "30",
+                "7",
+                "8",
+                "15",
+                "36",
+                "55",
+                "29",
+                "38.12",
+                "55.42",
+                "33.31"
+            ]
+        },
+        {
+            "Team": "Burnley",
+            "URL": "https://understat.com/team/Burnley/2025",
+            "Data": [
+                "19",
+                "Burnley",
+                "https://understat.com/team/Burnley/2025",
+                "30",
+                "4",
+                "8",
+                "18",
+                "32",
+                "58",
+                "20",
+                "29.00",
+                "65.26",
+                "19.36"
+            ]
+        },
+        {
+            "Team": "Wolverhampton Wanderers",
+            "URL": "https://understat.com/team/Wolverhampton_Wanderers/2025",
+            "Data": [
+                "20",
+                "Wolverhampton Wanderers",
+                "https://understat.com/team/Wolverhampton_Wanderers/2025",
+                "31",
+                "3",
+                "8",
+                "20",
+                "24",
+                "54",
+                "17",
+                "29.72",
+                "55.22",
+                "27.96"
+            ]
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2026-03-21 11:48:55",
+        "load_date": "2026-03-21",
+        "source": "Understat"
+    }
+}

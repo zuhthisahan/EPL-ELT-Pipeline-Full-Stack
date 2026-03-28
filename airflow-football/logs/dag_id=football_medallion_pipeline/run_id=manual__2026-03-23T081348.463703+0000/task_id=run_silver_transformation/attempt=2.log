@@ -1,0 +1,131 @@
+[2026-03-23T08:44:48.154+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-23T08:44:48.174+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_silver_transformation manual__2026-03-23T08:13:48.463703+00:00 [queued]>
+[2026-03-23T08:44:48.181+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: football_medallion_pipeline.run_silver_transformation manual__2026-03-23T08:13:48.463703+00:00 [queued]>
+[2026-03-23T08:44:48.181+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 3
+[2026-03-23T08:44:48.229+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): run_silver_transformation> on 2026-03-23 08:13:48.463703+00:00
+[2026-03-23T08:44:48.235+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2378) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-03-23T08:44:48.237+0000] {standard_task_runner.py:63} INFO - Started process 2380 to run task
+[2026-03-23T08:44:48.237+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'football_medallion_pipeline', 'run_silver_transformation', 'manual__2026-03-23T08:13:48.463703+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/football_master_dag.py', '--cfg-path', '/tmp/tmpwpmtk5kz']
+[2026-03-23T08:44:48.239+0000] {standard_task_runner.py:91} INFO - Job 18: Subtask run_silver_transformation
+[2026-03-23T08:44:48.310+0000] {task_command.py:426} INFO - Running <TaskInstance: football_medallion_pipeline.run_silver_transformation manual__2026-03-23T08:13:48.463703+00:00 [running]> on host 96c1c57b3a15
+[2026-03-23T08:44:48.433+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data_engineer' AIRFLOW_CTX_DAG_ID='football_medallion_pipeline' AIRFLOW_CTX_TASK_ID='run_silver_transformation' AIRFLOW_CTX_EXECUTION_DATE='2026-03-23T08:13:48.463703+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-23T08:13:48.463703+00:00'
+[2026-03-23T08:44:48.435+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-23T08:44:48.436+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-23T08:44:48.437+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/silver_pipeline.py ']
+[2026-03-23T08:44:48.447+0000] {subprocess.py:86} INFO - Output:
+[2026-03-23T08:44:50.128+0000] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/***/.local/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2026-03-23T08:44:50.184+0000] {subprocess.py:93} INFO - Ivy Default Cache set to: /root/.ivy2/cache
+[2026-03-23T08:44:50.185+0000] {subprocess.py:93} INFO - The jars for the packages stored in: /root/.ivy2/jars
+[2026-03-23T08:44:50.188+0000] {subprocess.py:93} INFO - io.delta#delta-spark_2.12 added as a dependency
+[2026-03-23T08:44:50.188+0000] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-b5962612-5b20-4891-a073-1f90d181affb;1.0
+[2026-03-23T08:44:50.189+0000] {subprocess.py:93} INFO - 	confs: [default]
+[2026-03-23T08:44:50.286+0000] {subprocess.py:93} INFO - 	found io.delta#delta-spark_2.12;3.1.0 in central
+[2026-03-23T08:44:50.321+0000] {subprocess.py:93} INFO - 	found io.delta#delta-storage;3.1.0 in central
+[2026-03-23T08:44:50.353+0000] {subprocess.py:93} INFO - 	found org.antlr#antlr4-runtime;4.9.3 in central
+[2026-03-23T08:44:50.383+0000] {subprocess.py:93} INFO - :: resolution report :: resolve 182ms :: artifacts dl 13ms
+[2026-03-23T08:44:50.384+0000] {subprocess.py:93} INFO - 	:: modules in use:
+[2026-03-23T08:44:50.385+0000] {subprocess.py:93} INFO - 	io.delta#delta-spark_2.12;3.1.0 from central in [default]
+[2026-03-23T08:44:50.386+0000] {subprocess.py:93} INFO - 	io.delta#delta-storage;3.1.0 from central in [default]
+[2026-03-23T08:44:50.386+0000] {subprocess.py:93} INFO - 	org.antlr#antlr4-runtime;4.9.3 from central in [default]
+[2026-03-23T08:44:50.387+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-03-23T08:44:50.388+0000] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2026-03-23T08:44:50.389+0000] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2026-03-23T08:44:50.390+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-03-23T08:44:50.390+0000] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+[2026-03-23T08:44:50.391+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-03-23T08:44:50.392+0000] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-b5962612-5b20-4891-a073-1f90d181affb
+[2026-03-23T08:44:50.393+0000] {subprocess.py:93} INFO - 	confs: [default]
+[2026-03-23T08:44:50.400+0000] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/9ms)
+[2026-03-23T08:44:50.624+0000] {subprocess.py:93} INFO - 26/03/23 08:44:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-03-23T08:44:50.808+0000] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2026-03-23T08:44:50.809+0000] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2026-03-23T08:45:25.026+0000] {subprocess.py:93} INFO - [Stage 2:>                                                          (0 + 1) / 1]                                                                                [Stage 6:>                                                        (0 + 12) / 50][Stage 6:=============>                                          (12 + 12) / 50][Stage 6:================>                                       (15 + 12) / 50][Stage 6:=============================>                          (26 + 12) / 50][Stage 6:======================================>                 (34 + 12) / 50][Stage 6:===========================================>            (39 + 11) / 50][Stage 6:=======================================================> (49 + 1) / 50]                                                                                [Stage 16:==============================>                        (28 + 12) / 50][Stage 16:==================================================>     (45 + 5) / 50]                                                                                [Stage 26:============================>                          (26 + 12) / 50][Stage 26:==============================>                        (28 + 12) / 50]                                                                                [Stage 36:==========================>                            (24 + 12) / 50][Stage 36:=================================>                     (30 + 12) / 50][Stage 36:====================================================>   (47 + 3) / 50]                                                                                [Stage 46:==================================================>     (45 + 5) / 50]                                                                                [Stage 55:========================================>              (37 + 12) / 50][Stage 55:======================================================> (49 + 1) / 50]                                                                                Spark Session Started.
+[2026-03-23T08:45:25.026+0000] {subprocess.py:93} INFO - Reading from: /opt/***/data_lake/bronze/league/
+[2026-03-23T08:45:25.027+0000] {subprocess.py:93} INFO - Data cleaned and flattened. Example:
+[2026-03-23T08:45:25.028+0000] {subprocess.py:93} INFO - +-----------------+--------------------+----+--------------+----+-----+------+---------+-------------+------+------+----------+-------------------+----------+
+[2026-03-23T08:45:25.028+0000] {subprocess.py:93} INFO - |        team_name|            team_url|rank|matches_played|wins|draws|losses|goals_for|goals_against|points|xG_for|xG_against|         updated_at| load_date|
+[2026-03-23T08:45:25.029+0000] {subprocess.py:93} INFO - +-----------------+--------------------+----+--------------+----+-----+------+---------+-------------+------+------+----------+-------------------+----------+
+[2026-03-23T08:45:25.029+0000] {subprocess.py:93} INFO - |          Arsenal|https://understat...|   1|            31|  21|    7|     3|       61|           22|    70|    60|        25|2026-03-23 08:43:27|2026-03-23|
+[2026-03-23T08:45:25.030+0000] {subprocess.py:93} INFO - |  Manchester City|https://understat...|   2|            30|  18|    7|     5|       60|           28|    61|    60|        35|2026-03-23 08:43:27|2026-03-23|
+[2026-03-23T08:45:25.030+0000] {subprocess.py:93} INFO - |Manchester United|https://understat...|   3|            31|  15|   10|     6|       56|           43|    55|    58|        39|2026-03-23 08:43:27|2026-03-23|
+[2026-03-23T08:45:25.031+0000] {subprocess.py:93} INFO - |      Aston Villa|https://understat...|   4|            31|  16|    6|     9|       42|           37|    54|    42|        47|2026-03-23 08:43:27|2026-03-23|
+[2026-03-23T08:45:25.031+0000] {subprocess.py:93} INFO - |        Liverpool|https://understat...|   5|            31|  14|    7|    10|       50|           42|    49|    56|        41|2026-03-23 08:43:27|2026-03-23|
+[2026-03-23T08:45:25.032+0000] {subprocess.py:93} INFO - +-----------------+--------------------+----+--------------+----+-----+------+---------+-------------+------+------+----------+-------------------+----------+
+[2026-03-23T08:45:25.032+0000] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-03-23T08:45:25.033+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.034+0000] {subprocess.py:93} INFO - New Silver Layer Created!
+[2026-03-23T08:45:25.035+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.035+0000] {subprocess.py:93} INFO - --- SILVER TEAM MATCHES PREVIEW ---
+[2026-03-23T08:45:25.036+0000] {subprocess.py:93} INFO - +---------------+------------+-----------------+---------+-------------+------------+--------------+------+----------+-------------------+----------+
+[2026-03-23T08:45:25.036+0000] {subprocess.py:93} INFO - |team_name      |match_date  |opponent         |home_away|result_status|goals_scored|goals_conceded|xg_for|xg_against|updated_at         |load_date |
+[2026-03-23T08:45:25.037+0000] {subprocess.py:93} INFO - +---------------+------------+-----------------+---------+-------------+------------+--------------+------+----------+-------------------+----------+
+[2026-03-23T08:45:25.037+0000] {subprocess.py:93} INFO - |Manchester City|Mar 14, 2026|West Ham         |a        |d            |1           |1             |1.95  |0.49      |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.038+0000] {subprocess.py:93} INFO - |Manchester City|Mar 04, 2026|Nottingham Forest|h        |d            |2           |2             |2.73  |1.24      |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.038+0000] {subprocess.py:93} INFO - |Manchester City|Feb 28, 2026|Leeds            |a        |w            |1           |0             |2.47  |1.38      |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.039+0000] {subprocess.py:93} INFO - |Manchester City|Feb 21, 2026|Newcastle United |h        |w            |2           |1             |2.23  |0.51      |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.039+0000] {subprocess.py:93} INFO - |Manchester City|Feb 11, 2026|Fulham           |h        |w            |3           |0             |1.68  |1.05      |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.040+0000] {subprocess.py:93} INFO - +---------------+------------+-----------------+---------+-------------+------------+--------------+------+----------+-------------------+----------+
+[2026-03-23T08:45:25.040+0000] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-03-23T08:45:25.041+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.041+0000] {subprocess.py:93} INFO - New Silver 'team_matches' Created!
+[2026-03-23T08:45:25.042+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.042+0000] {subprocess.py:93} INFO -  Processing Team Statistics...
+[2026-03-23T08:45:25.043+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.043+0000] {subprocess.py:93} INFO - --- SILVER TEAM STATISTICS PREVIEW ---
+[2026-03-23T08:45:25.044+0000] {subprocess.py:93} INFO - +---------------+---+---+---+---+---------------+-----+-----+-----+------+-----+---+-------------------+----------+
+[2026-03-23T08:45:25.044+0000] {subprocess.py:93} INFO - |team_name      |G  |GA |Sh |ShA|Situation      |xG   |xG/Sh|xGA  |xGA/Sh|xGD  |№  |updated_at         |load_date |
+[2026-03-23T08:45:25.045+0000] {subprocess.py:93} INFO - +---------------+---+---+---+---+---------------+-----+-----+-----+------+-----+---+-------------------+----------+
+[2026-03-23T08:45:25.045+0000] {subprocess.py:93} INFO - |Manchester City|50 |18 |341|225|Open play      |52.05|0.15 |27.73|0.12  |24.33|1  |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.046+0000] {subprocess.py:93} INFO - |Manchester City|7  |7  |81 |39 |From corner    |8.35 |0.10 |5.68 |0.15  |2.67 |2  |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.046+0000] {subprocess.py:93} INFO - |Manchester City|0  |1  |10 |20 |Set piece      |0.91 |0.09 |1.44 |0.07  |-0.53|3  |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.047+0000] {subprocess.py:93} INFO - |Manchester City|0  |1  |9  |8  |Direct Freekick|0.56 |0.06 |0.43 |0.05  |0.12 |4  |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.048+0000] {subprocess.py:93} INFO - |Manchester City|3  |1  |4  |2  |Penalty        |3.04 |0.76 |1.52 |0.76  |1.52 |5  |2026-03-23 08:44:15|2026-03-23|
+[2026-03-23T08:45:25.048+0000] {subprocess.py:93} INFO - +---------------+---+---+---+---+---------------+-----+-----+-----+------+-----+---+-------------------+----------+
+[2026-03-23T08:45:25.049+0000] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-03-23T08:45:25.049+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.050+0000] {subprocess.py:93} INFO - New Silver 'team_statistics' Created!
+[2026-03-23T08:45:25.050+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.051+0000] {subprocess.py:93} INFO -  Processing Upcoming Fixtures...
+[2026-03-23T08:45:25.051+0000] {subprocess.py:93} INFO - Silver 'team_fixtures' Created!
+[2026-03-23T08:45:25.052+0000] {subprocess.py:93} INFO - Successfully loaded all player JSONs into Spark!
+[2026-03-23T08:45:25.052+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.053+0000] {subprocess.py:93} INFO -  Processing Player Seasons...
+[2026-03-23T08:45:25.053+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.054+0000] {subprocess.py:93} INFO - --- SILVER PLAYER SEASONS PREVIEW ---
+[2026-03-23T08:45:25.054+0000] {subprocess.py:93} INFO - +-----------+--------------------+-----------+---------+-----------+--------------+-----+-------+------------+-----------------+-----+-----+-------------------+----------+
+[2026-03-23T08:45:25.055+0000] {subprocess.py:93} INFO - |player_name|          player_url|season_year|team_name|appearances|minutes_played|goals|assists|shots_per_90|key_passes_per_90|   xg|   xa|         updated_at| load_date|
+[2026-03-23T08:45:25.055+0000] {subprocess.py:93} INFO - +-----------+--------------------+-----------+---------+-----------+--------------+-----+-------+------------+-----------------+-----+-----+-------------------+----------+
+[2026-03-23T08:45:25.056+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|  2025/2026|  Arsenal|         27|          2010|    6|      3|        2.82|             2.37| 8.22|  6.4|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.057+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|  2024/2025|  Arsenal|         25|          1763|    6|     10|        3.42|             2.96| 8.94|11.58|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.057+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|  2023/2024|  Arsenal|         35|          2990|   16|      8|        3.22|             2.68|16.81|11.33|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.058+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|  2022/2023|  Arsenal|         38|          3216|   14|     11|        2.49|              2.1| 11.3| 7.04|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.058+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|  2021/2022|  Arsenal|         38|          3034|   11|      7|        2.88|             2.02| 9.91| 7.63|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.059+0000] {subprocess.py:93} INFO - +-----------+--------------------+-----------+---------+-----------+--------------+-----+-------+------------+-----------------+-----+-----+-------------------+----------+
+[2026-03-23T08:45:25.059+0000] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-03-23T08:45:25.060+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.060+0000] {subprocess.py:93} INFO - New Silver 'player_seasons' Created!
+[2026-03-23T08:45:25.061+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.061+0000] {subprocess.py:93} INFO -  Processing Player Matches...
+[2026-03-23T08:45:25.062+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.062+0000] {subprocess.py:93} INFO - --- SILVER PLAYER MATCHES PREVIEW ---
+[2026-03-23T08:45:25.063+0000] {subprocess.py:93} INFO - +-----------+--------------------+----------+--------------------+---------+-----+--------+--------------+-----+-----+----------+-------+----+----+-------------------+----------+
+[2026-03-23T08:45:25.064+0000] {subprocess.py:93} INFO - |player_name|          player_url|match_date|           home_team|away_team|score|position|minutes_played|shots|goals|key_passes|assists|  xg|  xa|         updated_at| load_date|
+[2026-03-23T08:45:25.064+0000] {subprocess.py:93} INFO - +-----------+--------------------+----------+--------------------+---------+-----+--------+--------------+-----+-----+----------+-------+----+----+-------------------+----------+
+[2026-03-23T08:45:25.065+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|2026-03-14|             Arsenal|  Everton|  2-0|     AMR|            90|    4|    0|         2|      0|0.16|0.05|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.065+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|2026-03-04|            Brighton|  Arsenal|  0-1|     AMR|            90|    2|    1|         0|      0|0.12|NULL|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.066+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|2026-03-01|             Arsenal|  Chelsea|  2-1|     AMR|            90|    1|    0|         4|      0|0.02|0.33|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.066+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|2026-02-22|           Tottenham|  Arsenal|  1-4|     AMR|            90|    5|    0|         2|      0|0.87|0.04|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.067+0000] {subprocess.py:93} INFO - |Bukayo Saka|https://understat...|2026-02-18|Wolverhampton Wan...|  Arsenal|  2-2|     AMC|            78|    1|    1|         1|      0|0.54|0.04|2026-03-23 08:44:44|2026-03-23|
+[2026-03-23T08:45:25.068+0000] {subprocess.py:93} INFO - +-----------+--------------------+----------+--------------------+---------+-----+--------+--------------+-----+-----+----------+-------+----+----+-------------------+----------+
+[2026-03-23T08:45:25.068+0000] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-03-23T08:45:25.069+0000] {subprocess.py:93} INFO - 
+[2026-03-23T08:45:25.069+0000] {subprocess.py:93} INFO -  New Silver 'player_matches' Created!
+[2026-03-23T08:45:25.070+0000] {subprocess.py:93} INFO - Spark Session Closed.
+[2026-03-23T08:45:25.481+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-03-23T08:45:25.482+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-23T08:45:25.582+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=football_medallion_pipeline, task_id=run_silver_transformation, execution_date=20260323T081348, start_date=20260323T084448, end_date=20260323T084525
+[2026-03-23T08:45:25.662+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-23T08:45:25.679+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-23T08:45:25.734+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

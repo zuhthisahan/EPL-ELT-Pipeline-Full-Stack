@@ -1,0 +1,88 @@
+{
+    "player_name": "Alysson Edward",
+    "player_url": "https://understat.com/player/14446",
+    "seasonal_performance": [
+        {
+            "№": "1",
+            "Season": "2025/2026",
+            "Team": "Aston Villa",
+            "Apps": "3",
+            "Min": "34",
+            "G": "0",
+            "A": "0",
+            "Sh90": "2.65",
+            "KP90": "0.00",
+            "xG": "0.05",
+            "xA": "",
+            "xG90": "0.14",
+            "xA90": "0.00"
+        },
+        {
+            "№": "",
+            "Season": "",
+            "Team": "",
+            "Apps": "3",
+            "Min": "34",
+            "G": "0",
+            "A": "0",
+            "Sh90": "2.65",
+            "KP90": "0.00",
+            "xG": "0.05",
+            "xA": "",
+            "xG90": "0.14",
+            "xA90": "0.00"
+        }
+    ],
+    "match_performance": [
+        {
+            "№": "1",
+            "Date": "2026-03-04",
+            "Home": "Aston Villa",
+            "Score": "1-4",
+            "Away": "Chelsea",
+            "Pos": "Sub",
+            "Min": "18",
+            "Sh": "1",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "0.05",
+            "xA": ""
+        },
+        {
+            "№": "2",
+            "Date": "2026-02-27",
+            "Home": "Wolverhampton Wanderers",
+            "Score": "2-0",
+            "Away": "Aston Villa",
+            "Pos": "Sub",
+            "Min": "3",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        },
+        {
+            "№": "3",
+            "Date": "2026-02-11",
+            "Home": "Aston Villa",
+            "Score": "1-0",
+            "Away": "Brighton",
+            "Pos": "Sub",
+            "Min": "13",
+            "Sh": "0",
+            "G": "0",
+            "KP": "0",
+            "A": "0",
+            "xG": "",
+            "xA": ""
+        }
+    ],
+    "_metadata": {
+        "extraction_timestamp": "2025-08-01 00:00:00",
+        "load_date": "2026-03-21",
+        "source": "Understat_Historical_Backfill"
+    }
+}
